@@ -1,0 +1,17 @@
+use db_new;
+
+-- delete 
+-- from profiles
+-- where day_offline >= 30;
+
+-- select u.id, u.name, p.date_register, p.day_offline
+-- from users as u
+-- join profiles as p
+-- on u.id = p.user_id
+-- where p.date_register > '2023-01-01';
+
+select *
+from users as u
+join profiles as p 
+on u.id = p.user_id
+where p.user_id = null;
