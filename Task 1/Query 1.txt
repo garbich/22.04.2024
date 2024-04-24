@@ -25,6 +25,5 @@ insert into users(name) values
 
 insert into profiles(user_id, date_register, day_offline) values
 (1, '2023-01-02', 30),
-(null, '2023-01-02', 1),
 (2, '2022-01-01', 20),
 (3, '2023-10-20', 10);
